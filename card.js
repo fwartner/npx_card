@@ -43,7 +43,7 @@ const data = {
         .bold("deineBAUSTOFFE")}`,
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("fwartner"),
     github: chalk.gray("https://github.com/") + chalk.green("fwartner"),
-    instagram: chalk.gray("https://instagram.com") + chalk.blue("flo_codes"),
+    instagram: chalk.gray("https://instagram.com/") + chalk.blue("flo_codes"),
     web: chalk.cyan("https://wartner.io"),
     npx: chalk.red("npx") + " " + chalk.white("fwartner"),
 
