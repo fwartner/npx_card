@@ -26,16 +26,16 @@ const questions = [
                 }
             },
             {
-                name: "Just quit.",
-                value: () => {
-                    console.log("Hasta la vista.\n");
-                }
-            },
-            {
                 name: `Visit my ${chalk.green.bold("website")}?`,
                 value: () => {
                     open("https://wartner.io");
                     console.log("\nCool!.\n");
+                }
+            },
+            {
+                name: "Just quit.",
+                value: () => {
+                    console.log("Hasta la vista.\n");
                 }
             }
         ]
