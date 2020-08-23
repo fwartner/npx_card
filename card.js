@@ -50,7 +50,7 @@ const data = {
     labelWork: chalk.white.bold("       Work:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
-    labelInstagram: chalk.white.bold("   LinkedIn:"),
+    labelInstagram: chalk.white.bold("   Instagram:"),
     labelWeb: chalk.white.bold("        Web:"),
     labelCard: chalk.white.bold("       Card:")
 };
