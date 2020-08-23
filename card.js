@@ -21,7 +21,7 @@ const questions = [
             {
                 name: `Send me an ${chalk.green.bold("email")}?`,
                 value: () => {
-                    open("mailto:hi@anmolsingh.me");
+                    open("mailto:florian@wartner.io");
                     console.log("\nDone, see you soon.\n");
                 }
             },
@@ -36,21 +36,21 @@ const questions = [
 ];
 
 const data = {
-    name: chalk.bold.green("             Anmol Pratap Singh"),
-    handle: chalk.white("@anmol098"),
+    name: chalk.bold.green("             Florian Wartner"),
+    handle: chalk.white("@fwartner"),
     work: `${chalk.white("Software Engineer at")} ${chalk
         .hex("#2b82b2")
-        .bold("ClearTax")}`,
-    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("misteranmol"),
-    github: chalk.gray("https://github.com/") + chalk.green("anmol098"),
-    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("anmol098"),
-    web: chalk.cyan("https://anmolsingh.me"),
-    npx: chalk.red("npx") + " " + chalk.white("anmol"),
+        .bold("deineBAUSTOFFE")}`,
+    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("fwartner"),
+    github: chalk.gray("https://github.com/") + chalk.green("fwartner"),
+    instagram: chalk.gray("https://instagram.com") + chalk.blue("flo_codes"),
+    web: chalk.cyan("https://wartner.io"),
+    npx: chalk.red("npx") + " " + chalk.white("fwartner"),
 
     labelWork: chalk.white.bold("       Work:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
-    labelLinkedIn: chalk.white.bold("   LinkedIn:"),
+    labelInstagram: chalk.white.bold("   LinkedIn:"),
     labelWeb: chalk.white.bold("        Web:"),
     labelCard: chalk.white.bold("       Card:")
 };
@@ -63,7 +63,7 @@ const me = boxen(
         ``,
         `${data.labelTwitter}  ${data.twitter}`,
         `${data.labelGitHub}  ${data.github}`,
-        `${data.labelLinkedIn}  ${data.linkedin}`,
+        `${data.labelInstagram}  ${data.instagram}`,
         `${data.labelWeb}  ${data.web}`,
         ``,
         `${data.labelCard}  ${data.npx}`,
