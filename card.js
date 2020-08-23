@@ -30,6 +30,13 @@ const questions = [
                 value: () => {
                     console.log("Hasta la vista.\n");
                 }
+            },
+            {
+                name: `Visit my ${chalk.green.bold("website")}?`,
+                value: () => {
+                    open("https://wartner.io");
+                    console.log("\nCool!.\n");
+                }
             }
         ]
     }
