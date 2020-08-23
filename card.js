@@ -38,7 +38,7 @@ const questions = [
 const data = {
     name: chalk.bold.green("             Florian Wartner"),
     handle: chalk.white("@fwartner"),
-    work: `${chalk.white("Software Engineer at")} ${chalk
+    work: `${chalk.white("Lead Software Engineer at")} ${chalk
         .hex("#2b82b2")
         .bold("deineBAUSTOFFE")}`,
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("fwartner"),
