@@ -45,9 +45,9 @@ const questions = [
 const data = {
     name: chalk.bold.green("             Florian Wartner"),
     handle: chalk.white("@fwartner"),
-    work: `${chalk.white("Head Of Software-Development at")} ${chalk
+    work: `${chalk.white("Solution Architect at")} ${chalk
         .hex("#2b82b2")
-        .bold("MeinAlarm24.de")}`,
+        .bold("NexusUnited (valantic)")}`,
     twitter: chalk.gray("https://twitter.com/") + chalk.cyan("fwartner"),
     github: chalk.gray("https://github.com/") + chalk.green("fwartner"),
     instagram: chalk.gray("https://instagram.com/") + chalk.blue("flo_codes"),
